@@ -40,5 +40,24 @@ form.addEventListener('submit', function(event) {
 
 
 
-
+// Scroll Animation
+window.addEventListener('scroll', () => {
+    const subtitle = document.getElementById('subtitle');
+    const mainTitle = document.getElementById('main-title');
+    const description = document.getElementById('description');
+    const ctaButton = document.getElementById('cta-button');
+  
+    const elements = [subtitle, mainTitle, description, ctaButton];
+    const screenPosition = window.innerHeight / 1.3;
+  
+    elements.forEach(element => {
+      const position = element.getBoundingClientRect().top;
+      if (position < screenPosition) {
+        element.style.opacity = '1';
+        element.style.transform = 'translateY(0)';
+        element.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+      }
+    });
+  });
+  
 
