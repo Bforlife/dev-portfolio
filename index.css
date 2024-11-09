@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 :root{
-    /* --circle:white;
-    --logo:#2a7221;
-    --background-home:#1e441e;
-    --p:#119822; */
     --primary-bg: #fef3e9;
     --highlight-color: #ff6600;
     --text-color: #252525;
@@ -314,14 +310,7 @@ h3:hover{
 }
 
 /* form styles */
-.contact{
-    background-color: #1e441e;
-}
 
-.contact :hover{
-    /* background-color:#293b27; */
-    /* color: white; */
-}
 
 .container-form {
     max-width: 1600px;
@@ -330,6 +319,7 @@ h3:hover{
     text-align: center;
     margin-top: 20px;
     background: var(--primary-bg);
+    /* background-color: red;  */
 }
 form {
     display: flex;
@@ -359,7 +349,6 @@ form input, form textarea:focus{
 
 form button {
     color: #fff;
-    /* */
     font-size: 1.2rem;
     border: none;
     border-radius: 5px;
@@ -377,9 +366,7 @@ form button {
     color: #fff;
     background-color: var(--highlight-color);
 }
-/* .footer{
-    text-align: center;
-} */
+
 
 /* Footer */
 .footer {
@@ -477,4 +464,8 @@ form button {
       margin-top: 20px;
     }
   }
+
+
+
+
   

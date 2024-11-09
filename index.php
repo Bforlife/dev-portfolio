@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +13,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <style>
     .logo-circle {
         width: 80px;
@@ -131,18 +134,14 @@
           <div class="statistics">
             <div>
               <p>
-                 <!-- <i class="fas fa-check" style="color: #ff6a00;"></i> -->
                   Work simple and clean design</p>
               <p> 
-                <!-- <i class="fas fa-lightbulb" style="color: #ff6a00;"></i> -->
                 New idea and user-friendly design</p>
             </div> 
             <div>
               <p class="mx-3">
-                <!-- <i class="fas fa-laptop-code" style="color: #ff6a00;"></i> -->
                 Web Design Full stack</p>
               <p class="mx-3">
-                <!-- <i class="fas fa-redo" style="color: #ff6a00;"></i> -->
                 Unlimited Revisions</p>
             </div>
           </div>
@@ -211,25 +210,43 @@
             <div class="blog-post">
                 <img src="Pics/P30.jpg" alt="Blog 1 Image">
                 <div class="blog-content">
-                    <p class="blog-date">20 January, 2028</p>
+                <div class="post-meta text-muted d-flex justify-content-start align-items-center mb-3">
+                        <span class="author me-3"><i class="bi bi-person" style="color:var(--highlight-color)"></i> Mma's Code</span>
+                        <span class="date"><i class="bi bi-calendar" style="color:var(--highlight-color)"></i> 
+                          <?php echo date("d.m.Y"); ?>
+                        </span>
+                        </div>
                     <h3>5 Essential Keyboard Shortcuts for Efficient Coding</h3>
-                    <a href="blog1.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    <a href="blog1.php" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             <div class="blog-post">
                 <img src="Pics/P32.jpg" alt="Blog 2 Image">
                 <div class="blog-content">
-                    <p class="blog-date">15 January, 2028</p>
+                    <p class="blog-date">
+                        <div class="post-meta text-muted d-flex justify-content-start align-items-center mb-3">
+                        <span class="author me-3"><i class="bi bi-person" style="color:var(--highlight-color)"></i> Mma's Code</span>
+                        <span class="date"><i class="bi bi-calendar" style="color:var(--highlight-color)"></i> 
+                          <?php echo date("d.m.Y"); ?>
+                        </span>
+                        </div>
+                        
+                    </p>
                     <h3>Top 10 Tools to Boost Your Productivity as a Developer</h3>
-                    <a href="blog2.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    <a href="blog2.php" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             <div class="blog-post">
                 <img src="Pics/P31.jpg" alt="Blog 3 Image">
                 <div class="blog-content">
-                    <p class="blog-date">08 January, 2028</p>
+                <div class="post-meta text-muted d-flex justify-content-start align-items-center mb-3">
+                        <span class="author me-3"><i class="bi bi-person" style="color:var(--highlight-color)"></i> Mma's Code</span>
+                        <span class="date"><i class="bi bi-calendar" style="color:var(--highlight-color)"></i> 
+                          <?php echo date("d.m.Y"); ?>
+                        </span>
+                        </div>
                     <h3>How to Write Clean and Maintainable Code</h3>
-                    <a href="blog3.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    <a href="blog3.php" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -242,7 +259,8 @@
     <div class="container-form">
         <form action="insert.php" method="POST">
             <h2>Contact Me</h2>
-            <p style="font-size: 20px; color:var(--text-color);">If you'd like to discuss a project or just want to say hi, feel free to drop a message.</p>
+            <p style="font-size: 20px; color:var(--text-color);">
+              If you'd like to discuss a project or just want to say hi, feel free to drop a message.</p>
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
             <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
@@ -251,7 +269,6 @@
     </div>
 </section>
 
-<!-- <div class="footer">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis. &copy; 2024</div> -->
 <footer class="footer">
   <div class="container">
     <div class="footer-content">
