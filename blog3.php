@@ -139,6 +139,11 @@ font-size: 0.8rem;
 <i class="conclusion"><strong>Conclusion</strong><br>
     By incorporating these keyboard shortcuts into your daily coding routine, you can enhance your productivity, streamline your workflow, and focus more on solving problems</i>
 
+
+    <?php
+require("form.php");
+
+?>
     <div class="back-to-blog mt-5 text-center mb-4 ">
 <a href="index.php" class="btn btn-back mb-4">Back to Blog</a>
 </div>

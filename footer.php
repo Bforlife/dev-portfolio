@@ -3,33 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitea</title>
-    <link rel="stylesheet" href="index.css">
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-    button{
-        border: 1px solid #000;
-        width: 20%;
-        height: 40px;
-        border: none;
-        font-size: 20px;
-        border-radius: 20px;
-    }
-
-</style>
+    <title>Footer</title>
 </head>
 <body>
-    <div style="text-align: center; background-color:#fff";>
-        <h3>My Curriculum Vitea</h3>
-        <a href="#"><img src="Pics/cv.png" width="500" height="650" style="border-radius: 20px;"></a>
-        <div style="margin-top: 10px; padding-bottom: 20px;"><button Onclick=window.print()>Print Cv</button></div>
-        
-    </div>
-    <footer class="footer">
+<footer class="footer">
         <div class="container">
           <div class="footer-content">
             <!-- Left Section -->
@@ -72,7 +49,8 @@
                 <a href="#"><i class="fab fa-dribbble"></i></a>
                 <a href="#"><i class="fab fa-behance"></i></a>
               </div>
-              <p><i class="fas fa-map-marker-alt"></i> Enugu Express Road Abakaliki 480106</p>
+              <p><i class="fas fa-map-marker-alt"></i> Abakaliki 480106<br>
+                Ebonyi</p>
               <p><i class="fas fa-phone"></i> 08101875471</p>
             </div>
           </div>
@@ -80,12 +58,7 @@
         <div class="footer-bottom">
           <p>&copy; 2024 Mma's code | <a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a></p>
         </div>
+        <a href="index.php">Back to Home</a>
       </footer>
-      
-
-    <!-- <div style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum sequi minus ex voluptas ut eum ullam perferendis officia dolor eos, inventore ea! Impedit, pariatur reprehenderit adipisci optio ex minus!<br>
-      <p>@2024</p>  
-    </div>
-     -->
 </body>
 </html>

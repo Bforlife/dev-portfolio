@@ -114,7 +114,7 @@ font-size: 0.8rem;
 </div>
 
 
-<h2 class="post-subtitle text-center fs-3" style="color:var(--highlight-color);">Discover five crucial keyboard shortcuts that can enhance your coding efficiency...</h2>
+<h2 class="post-subtitle text-center fs-3" style="color:var(--highlight-color);">Tools you need to know as a Developer</h2>
 <p class="fs-5">
 1. <strong>Visual Studio Code</strong> <br>
 Description: A powerful and lightweight code editor that supports multiple programming languages. With its rich extension ecosystem, you can customize your workspace to fit your needs.</p>
@@ -153,6 +153,11 @@ Description: A versatile tool for note-taking, task management, and project docu
 <i class="conclusion"><strong>Conclusion</strong><br>
     By incorporating these keyboard shortcuts into your daily coding routine, you can enhance your productivity, streamline your workflow, and focus more on solving problems</i>
 
+
+    <?php
+require("form.php");
+
+?>
     <div class="back-to-blog mt-5 text-center mb-4 ">
 <a href="index.php" class="btn btn-back mb-4">Back to Blog</a>
 </div>
@@ -160,6 +165,8 @@ Description: A versatile tool for note-taking, task management, and project docu
 
 
 </div>
+
+
 
 </body>
 </html>
